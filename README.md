@@ -137,7 +137,7 @@ We had pretty good success on our larger training sets from automated
 discovery using MeSH terms to query pubmed. (80-90% correct
 predictions to positive and negative categories. See figure.)
 
-![Summary](https://raw.githubusercontent.com/charlieccarey/rdoc/master/images/img.png)
+TODO: add figure here.
 
 We binned the results to true / false postive and true / false
 negative categories in our confusion matrices. However, the primary
