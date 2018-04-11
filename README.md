@@ -119,7 +119,7 @@ A generalized view of our approach is depicted below.
 | Medic      | A python based tool to manage pubmed ids, abstracts and affiliated data.                                         |
 | Humans     | Manual annotation of PDFs. (Highlight positive and negative sentences in different colors.) Tag entire articles. |
 | pdfminer   | A python based tool to extract PDF text by exact location of objects.                                             |
-| Spacy      | NLP tasks, such as generating bags of lemmatized words from training data.                                       |
+| Spacy      | NLP tasks, such as generating bags of lemmatized words for use in our training data.                                       |
 | DeepDive   | Databasing training and 'naive' data, predictive modeling on top of PostgreSQL.                                  |
 | PostgreSQL | Database on which DeepDive is built, and which we manipulate to makeup for DeepDive's shortcomings.              |
 | R          | Visualize results (ggplot2). Generate confusion matrices.                                                        |
