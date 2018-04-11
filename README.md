@@ -122,7 +122,7 @@ A generalized view of our approach is depicted below.
 | Spacy      | NLP tasks, such as generating bags of lemmatized words for use in our training data.                                       |
 | DeepDive   | Databasing training and 'naive' data, predictive modeling on top of PostgreSQL.                                  |
 | PostgreSQL | Database on which DeepDive is built, and which we manipulate to makeup for DeepDive's shortcomings.              |
-| R          | Visualize results (ggplot2). Generate confusion matrices.                                                        |
+| R          | Visualize results (ggplot2). Generate confusion matrices and other metrics.                                                        |
 | Jupyter    | Documentation of analysis pipeline, demos, and results.                                                          |
 | NIMH       | Source of RDoC concepts.                                                                                         |
 | PMC        | Source of most of the PDFs.                                                                                      |
