@@ -5,8 +5,6 @@ Categorizing Pubmed Articles using Research Domain Criteria.
 The NIMH created the Research Domain Criteria research framework to
 facilitate and integrate approaches to research on mental health.
 
-NIMH Research Domain Criteria
-
 We began herein to demonstrate and use machine learning tools to apply
 RDoC ideas or terms to categorize psychological literature in an RDoC
 aware manner.
