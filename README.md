@@ -118,7 +118,7 @@ A generalized view of our approach is depicted below.
 | Python     | Fetch PDFs from Pubmed Central. Run spaCy. Extract annotations from PDFs.                                        |
 | Medic      | A python based tool to manage pubmed ids, abstracts and affiliated data.                                         |
 | Humans     | Manual annotation of PDFs. (Highlight positive and negative sentences in different colors.) Tag entire articles. |
-| pdfminer   | A python based tool to extract PDF tax by exact location of objects.                                             |
+| pdfminer   | A python based tool to extract PDF text by exact location of objects.                                             |
 | Spacy      | NLP tasks, such as generating bags of lemmatized words from training data.                                       |
 | DeepDive   | Databasing training and 'naive' data, predictive modeling on top of PostgreSQL.                                  |
 | PostgreSQL | Database on which DeepDive is built, and which we manipulate to makeup for DeepDive's shortcomings.              |
