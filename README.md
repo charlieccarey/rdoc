@@ -15,7 +15,7 @@ The project's genesis was at Montana State University with support
 from the Center for Mental Health Research and Recovery and essential
 guidance and contributions from NAMI Montana.
 
-![Summary](https://raw.githubusercontent.com/charlieccarey/rdoc/master/images/steps.png =200x200)
+<a href="Summary"><img src="https://raw.githubusercontent.com/charlieccarey/rdoc/master/images/steps.png" align="left" height="350" width="350" ></a>
 
 ## Research Domain Criteria (RDoC).
 
