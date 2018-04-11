@@ -15,6 +15,17 @@ The project's genesis was at Montana State University with support
 from the Center for Mental Health Research and Recovery and essential
 guidance and contributions from NAMI Montana.
 
+## Research Domain Criteria (RDoC).
+
+    RDoC is a research framework for studying mental illnesses.
+    - NIMH Resarch Priorities (link) (4-10-2018)
+
+More generally, a benefit of RDoC is to break down the traditional
+silos of mental health classification and research. For instance,
+schizophrenia might be usefully studied in its own right. Rather than
+specifically as a subtopic and separately according to DSM V
+classification of mental disorders.
+
 ## Project status:
 
 (I wrapped up my involvement in the project. Several months later it was
@@ -53,17 +64,6 @@ See documentaton_of_key_files.pdf in the pdfs folder for this repository. It mig
 TODO: finish this list.
 
 [10_1_design_deepdive_sql_reports_for_confusion_matrix](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/10_1_design_deepdive_sql_reports_for_confusion_matrix.ipynb)
-
-## Research Domain Criteria (RDoC).
-
-    RDoC is a research framework for studying mental illnesses.
-    - NIMH Resarch Priorities (link) (4-10-2018)
-
-More generally, a benefit of RDoC is to break down the traditional
-silos of mental health classification and research. For instance,
-schizophrenia might be usefully studied in its own right. Rather than
-specifically as a subtopic and separately according to DSM V
-classification of mental disorders.
 
 ## Project Outline
 
