@@ -15,10 +15,12 @@ The project's genesis was at Montana State University with support
 from the Center for Mental Health Research and Recovery and essential
 guidance and contributions from NAMI Montana.
 
+![Summary](https://raw.githubusercontent.com/charlieccarey/rdoc/master/images/steps.png =200x200)
+
 ## Research Domain Criteria (RDoC).
 
     RDoC is a research framework for studying mental illnesses.
-    - NIMH Resarch Priorities (link) (4-10-2018)
+    - [NIMH Research Priorities](https://www.nimh.nih.gov/research-priorities/index.shtml) (4-10-2018)
 
 More generally, a benefit of RDoC is to break down the traditional
 silos of mental health classification and research. For instance,
