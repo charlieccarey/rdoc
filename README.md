@@ -176,19 +176,29 @@ another. Inspection of those articles revealed that they
 shared characteristics of both the 'in group' and the 'out group'
 training sets.
 
-See figure 'in group': auditory, 'outgroup': arousal. 1000 abstracts each. Individual abstracts (arranged randomly along the x axis) are assigned a probability of being in the 'in group'.
+#### DeepDive prediction between Auditory and Arousal
 
-<a href="Auditory_vs_Arousal"><img src="https://raw.githubusercontent.com/charlieccarey/rdoc/master/images/fig_arousal_vs_auditory.png" align="left" height="350" width="350" ></a>
+In the figure the 'in group' is auditory. The 'outgroup' is arousal. 1000 abstracts each. Individual abstracts (arranged randomly along the x axis) are assigned a probability of being in the 'in group'. Orange circles are Arousal abstracts. A note on some of the orange circles that appear to be highly predicted as being akin to the Auditory category. Looking at some of the abstracts, this isn't too suprising as a subset of arousal research will use auditory tasks. Vice versa for blue circles towards the bottom. 
 
-The accompanying statistics for this prediction is presented in the table.
+The accompanying metrics for this prediction is presented in the table.  
 
-<a href="Auditory_vs_Arousal"><img src="https://raw.githubusercontent.com/charlieccarey/rdoc/master/images/stats_arousal_vs_auditory.png" align="left" height="350" width="350" ></a>
+<a href="Auditory_vs_Arousal"><img src="https://raw.githubusercontent.com/charlieccarey/rdoc/master/images/fig_arousal_vs_auditory.png" align="left" height="200" width="300" ></a>
 
-I learned a lot about NLP tasks, Pubmed, and (regrettably) PDF extraction.
+
+<p style="clear:left;"></p>
+
+<a href="Auditory_vs_Arousal"><img src="https://raw.githubusercontent.com/charlieccarey/rdoc/master/images/stats_arousal_vs_auditory.png" align="left" height="200" width="200" ></a>
+
+
+<p style="clear:left;"></p>
+
+
+<div>---><---</div>
+
 
 ### Failures and / or pain points.
 
-: Pain points by tool.
+Pain points by tool:
 
 | Tool               | Reason                                                                                                                                   |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------|
