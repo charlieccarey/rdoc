@@ -178,13 +178,13 @@ training sets.
 
 See figure 'in group': auditory, 'outgroup': arousal. 1000 abstracts each. Individual abstracts (arranged randomly along the x axis) are assigned a probability of being in the 'in group'.
 
-<a href="Auditory_vs_Arousal"><img src="https://raw.githubusercontent.com/charlieccarey/rdoc/master/images/fig_arousal_vs_auditory.png" align="left" height="350" width="350" ></a>
+<a href="Auditory_vs_Arousal"><img src="https://raw.githubusercontent.com/charlieccarey/rdoc/master/images/fig_arousal_vs_auditory.png" align="left" height="200" width="300" ></a>
 
 The accompanying statistics for this prediction is presented in the table.
 
-<a href="Auditory_vs_Arousal"><img src="https://raw.githubusercontent.com/charlieccarey/rdoc/master/images/stats_arousal_vs_auditory.png" align="left" height="350" width="350" ></a>
+<a href="Auditory_vs_Arousal"><img src="https://raw.githubusercontent.com/charlieccarey/rdoc/master/images/stats_arousal_vs_auditory.png" align="left" height="200" width="200" ></a>
 
-I learned a lot about NLP tasks, Pubmed, and (regrettably) PDF extraction.
+<div style="page-break-after: always;"></div>
 
 ### Failures and / or pain points.
 
