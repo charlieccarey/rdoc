@@ -189,13 +189,11 @@ The accompanying metrics for this prediction is presented in the table.
 
 <a href="Auditory_vs_Arousal"><img src="https://raw.githubusercontent.com/charlieccarey/rdoc/master/images/stats_arousal_vs_auditory.png" align="left" height="200" width="200" ></a>
 
-
-<p style="clear:left;"></p>
-
-
-<div>---><---</div>
-
-
+  
+  
+  
+  
+  
 ### Failures and / or pain points.
 
 Pain points by tool:
