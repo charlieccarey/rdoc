@@ -176,19 +176,22 @@ another. Inspection of those articles revealed that they
 shared characteristics of both the 'in group' and the 'out group'
 training sets.
 
-See figure 'in group': auditory, 'outgroup': arousal. 1000 abstracts each. Individual abstracts (arranged randomly along the x axis) are assigned a probability of being in the 'in group'.
-
 <a href="Auditory_vs_Arousal"><img src="https://raw.githubusercontent.com/charlieccarey/rdoc/master/images/fig_arousal_vs_auditory.png" align="left" height="200" width="300" ></a>
 
 The accompanying statistics for this prediction is presented in the table.
 
+<p style="clear:left;"></p>
+
 <a href="Auditory_vs_Arousal"><img src="https://raw.githubusercontent.com/charlieccarey/rdoc/master/images/stats_arousal_vs_auditory.png" align="left" height="200" width="200" ></a>
 
-<div style="page-break-after: always;"></div>
+See figure 'in group': auditory, 'outgroup': arousal. 1000 abstracts each. Individual abstracts (arranged randomly along the x axis) are assigned a probability of being in the 'in group'.
+
+<p style="clear:left;"></p>
+
 
 ### Failures and / or pain points.
 
-: Pain points by tool.
+Pain points by tool:
 
 | Tool               | Reason                                                                                                                                   |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------|
