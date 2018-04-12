@@ -185,9 +185,9 @@ training sets.
 
 <a href="Auditory_vs_Arousal"><img src="https://raw.githubusercontent.com/charlieccarey/rdoc/master/images/stats_arousal_vs_auditory.png" align="left" height="200" width="200" ></a>
 
-In the figure the 'in group' is auditory. The 'outgroup' is arousal. 1000 abstracts each. Individual abstracts (arranged randomly along the x axis) are assigned a probability of being in the 'in group'. Orange circles are Arousal abstracts. A note on some of the orange circles that appear to be highly predicted as being akin to the Auditory category. Looking at some of the abstracts, this isn't too suprising as a subset of arousal research will use auditory tasks. Vice versa for blue circles towards the bottom. 
+In the figure the 'in group' is auditory. The 'outgroup' is arousal. 1000 abstracts each. Individual abstracts (arranged randomly along the x axis) are assigned a probability of being in the 'in group'. Orange circles are Arousal abstracts. A note on some of the orange circles that appear to be highly predicted as being akin to the Auditory category. Looking at some of the abstracts, this isn't too suprising as a subset of arousal research will use auditory tasks. Vice versa for blue circles towards the bottom. Note, this is the training set, unlabeled, now predicted against the model. As such, it is a fairly easy target for success. Applied to novel abstracts, the model did a bit worse at predicting the Auditory class, as expected.
 
-The accompanying metrics for this prediction is presented in the table.  
+The accompanying metrics for this prediction are presented in the table.  
 
 
   
