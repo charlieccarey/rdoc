@@ -59,11 +59,42 @@ have a few questions, I'd be happy to discuss these further.
 
 See documentaton_of_key_files.pdf in the pdfs folder for this repository. It might not correspond perfectly to what is here at github, but it should help.
 
-## Shortcuts to prettier views of jupyter notebooks.
+## Viewing the jupyter notebooks and organization of the repo.
 
-TODO: finish this list.
+The notebooks are numbered in approximate ordering of tasks.
 
+Scripts run from, or referred to in the notebooks are in this repos scripts directory.
+
+DeepDive required some config files and a structured file system for training and test data. An example of some of those files are in the templates_deepdive_app_bagofwords folder. This was the config for one particular run or 'application' in deepdive's terminology. When I ran it, many of the labeled and unlabeled sentences and bags of words would have been in the input folder therein. DeepDive would recognize that folder and (with the config file, schema and udp scripts) use the contents to fill the postgreSQL database and run the application.
+
+Some data referred to or generated in the notebooks have not been replicated in either the repository or the data link towards the end of this README. That is because they are relatively easy to recreate programatically.
+
+[pdf_miner_mine_pdf_annotations](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/pdf_miner_mine_pdf_annotations.ipynb)
+[2_spacy_parse_annotations](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/2_spacy_parse_annotations.ipynb)
+[3_spacy_process_sentences_for_deepdive](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/3_spacy_process_sentences_for_deepdive.ipynb)
+[4_deepdive_on_mk_arousal](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/4_deepdive_on_mk_arousal.ipynb)
+[5_0_1_semi_automated_match_annotations_into_plain_text_abstracts](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/5_0_1_semi_automated_match_annotations_into_plain_text_abstracts.ipynb)
+[5_0_2_split_annotations_pos_neg_neutr](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/5_0_2_split_annotations_pos_neg_neutr.ipynb)
+[5_1_spacy_process_sentences_for_deepdive](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/5_1_spacy_process_sentences_for_deepdive.ipynb)
+[5_2_deepdive_on_mk_arousal-cleaner_version](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/5_2_deepdive_on_mk_arousal-cleaner_version.ipynb)
+[6_deepdive_arousal](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/6_deepdive_arousal.ipynb)
+[7_0_1_explore_negatives](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/7_0_1_explore_negatives.ipynb)
+[8_0_1_fetch_random_human_abstracts](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/8_0_1_fetch_random_human_abstracts.ipynb)
+[8_0_2_corpus_and_tf-idf-Copy1](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/8_0_2_corpus_and_tf-idf-Copy1.ipynb)
+[8_0_2_corpus_and_tf-idf](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/8_0_2_corpus_and_tf-idf.ipynb)
+[8_0_3_quick_auditory_test](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/8_0_3_quick_auditory_test.ipynb)
+[9_0_round_4_annotations_out](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/9_0_round_4_annotations_out.ipynb)
+[9_1_round_5_annotations_out](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/9_1_round_5_annotations_out.ipynb)
+[9_2_round_6_annotations_out](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/9_2_round_6_annotations_out.ipynb)
+[9_3_round_7_annotatinos_out_reassign_sleep_arousal](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/9_3_round_7_annotatinos_out_reassign_sleep_arousal.ipynb)
 [10_1_design_deepdive_sql_reports_for_confusion_matrix](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/10_1_design_deepdive_sql_reports_for_confusion_matrix.ipynb)
+[10_2_design_deepdive_confusion_matrix_report](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/10_2_design_deepdive_confusion_matrix_report.ipynb)
+[10_3_design_deepdive_wrapper](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/10_3_design_deepdive_wrapper.ipynb)
+[11_1_aud_per_vs_others_create_input](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/11_1_aud_per_vs_others_create_input.ipynb)
+[11_2_aud_per_vs_others_run_and_summarize_deepdive](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/11_2_aud_per_vs_others_run_and_summarize_deepdive.ipynb)
+[12_example_cross_validations](http://nbviewer.jupyter.org/github/charlieccarey/rdoc/blob/master/jupyter_notebooks/12_example_cross_validations.ipynb)
+
+The notebooks are a little messy. It was my early days with Jupyter Notebook ;)
 
 ## Project Outline
 
@@ -106,7 +137,7 @@ The limitation of:
   aligned to MeSH terms and thereby accessible by automatic
   selection.
 
-A generalized view of our approach is depicted below.
+A generalized view of our approach is depicted near the beginning of this readme.
 
 ## Tools used.
 
@@ -123,7 +154,7 @@ A generalized view of our approach is depicted below.
 | DeepDive   | Databasing training and 'naive' data, predictive modeling on top of PostgreSQL.                                  |
 | PostgreSQL | Database on which DeepDive is built, and which we manipulate to makeup for DeepDive's shortcomings.              |
 | R          | Visualize results (ggplot2). Generate confusion matrices and other metrics.                                                        |
-| Jupyter    | Documentation of analysis pipeline, demos, and results.                                                          |
+| Jupyter Notebook   | Documentation of analysis pipeline, demos, and results.                                                          |
 | NIMH       | Source of RDoC concepts.                                                                                         |
 | PMC        | Source of most of the PDFs.                                                                                      |
 
@@ -135,9 +166,7 @@ For specific tool versions, see Documentation_of_key_files.pdf section 7.
 
 We had pretty good success on our larger training sets from automated
 discovery using MeSH terms to query pubmed. (80-90% correct
-predictions to positive and negative categories. See figure.)
-
-TODO: add figure here.
+predictions to positive and negative categories).
 
 We binned the results to true / false postive and true / false
 negative categories in our confusion matrices. However, the primary
@@ -146,6 +175,14 @@ articles were very close to 50% representative of one topic over
 another. Inspection of those articles revealed that they
 shared characteristics of both the 'in group' and the 'out group'
 training sets.
+
+See figure 'in group': auditory, 'outgroup': arousal. 1000 abstracts each. Individual abstracts (arranged randomly along the x axis) are assigned a probability of being in the 'in group'.
+
+<a href="Auditory_vs_Arousal"><img src="https://raw.githubusercontent.com/charlieccarey/rdoc/master/images/fig_arousal_vs_auditory.png" align="left" height="350" width="350" ></a>
+
+The accompanying statistics for this prediction is presented in the table.
+
+<a href="Auditory_vs_Arousal"><img src="https://raw.githubusercontent.com/charlieccarey/rdoc/master/images/stats_arousal_vs_auditory.png" align="left" height="350" width="350" ></a>
 
 I learned a lot about NLP tasks, Pubmed, and (regrettably) PDF extraction.
 
@@ -273,7 +310,7 @@ cleanest concepts, and we could focus our most precious resource,
 human annotators time, on helping to disambiguate the more difficult
 concepts.
 
-gensim would be my tool of choice.
+[gensim](https://github.com/RaRe-Technologies/gensim) would be my tool of choice.
 
 ## Data.
 
