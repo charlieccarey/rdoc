@@ -178,22 +178,24 @@ training sets.
 
 #### DeepDive prediction between Auditory and Arousal
 
-In the figure the 'in group' is auditory. The 'outgroup' is arousal. 1000 abstracts each. Individual abstracts (arranged randomly along the x axis) are assigned a probability of being in the 'in group'. Orange circles are Arousal abstracts. A note on some of the orange circles that appear to be highly predicted as being akin to the Auditory category. Looking at some of the abstracts, this isn't too suprising as a subset of arousal research will use auditory tasks. Vice versa for blue circles towards the bottom. 
-
-The accompanying metrics for this prediction is presented in the table.  
 
 <a href="Auditory_vs_Arousal"><img src="https://raw.githubusercontent.com/charlieccarey/rdoc/master/images/fig_arousal_vs_auditory.png" align="left" height="200" width="300" ></a>
-
 
 <p style="clear:left;"></p>
 
 <a href="Auditory_vs_Arousal"><img src="https://raw.githubusercontent.com/charlieccarey/rdoc/master/images/stats_arousal_vs_auditory.png" align="left" height="200" width="200" ></a>
 
+In the figure the 'in group' is auditory. The 'outgroup' is arousal. 1000 abstracts each. Individual abstracts (arranged randomly along the x axis) are assigned a probability of being in the 'in group'. Orange circles are Arousal abstracts. A note on some of the orange circles that appear to be highly predicted as being akin to the Auditory category. Looking at some of the abstracts, this isn't too suprising as a subset of arousal research will use auditory tasks. Vice versa for blue circles towards the bottom. 
+
+The accompanying metrics for this prediction is presented in the table.  
+
+
   
   
   
   
   
+
 ### Failures and / or pain points.
 
 Pain points by tool:
